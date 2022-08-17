@@ -11,7 +11,7 @@ export default function App() {
                         ></i>
                     </label>
 
-                    <div class="border-[1px] border-[#FAF7F5] my-4"></div>
+                    <div class="border-[1px] bg-[#FAF7F5] border-[#FAF7F5] my-4"></div>
                     <i class="fa-xl fa-solid fa-people-group"></i>
                 </div>
             </div>
@@ -25,7 +25,7 @@ export default function App() {
                             title="The Team"
                         ></i>
                     </label>
-                    <span class="border-[1px] border-[#FAF7F5] mx-4"></span>
+                    <span class="border-[1px] bg-[#FAF7F5] border-[#FAF7F5] mx-4"></span>
                     <i class="fa-2xl fa-solid fa-people-group"></i>
                 </div>
             </div>
