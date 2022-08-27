@@ -1,3 +1,5 @@
+import Fish from "../assets/fish.png";
+
 export default function Ikan() {
     return (
         <>
@@ -9,7 +11,16 @@ export default function Ikan() {
                     mineral, protein dan vitamin. Jenis ikan yang mempunyai
                     banyak khasiat untuk tubuh badan adalah ikan isi putih
                     seperti ikan bawal, ikan merah, ikan parang dan macam-macam
-                    lagi. Selain itu, jenis ikan berminyak seperti salmon, ikan
+                    lagi.
+                </p>
+                <div class="flex justify-center">
+                    <img
+                        src={Fish}
+                        class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
+                    />
+                </div>
+                <p class="text-2xl text-left">
+                    Selain itu, jenis ikan berminyak seperti salmon, ikan
                     kembung, tuna segar, sardin juga mengandungi khasiat-khasiat
                     yang baik untuk kesihatan. Kajian telah mendapati bahawa
                     makan ikan yang mengandungi kandungan omega-3 yang tinggi
