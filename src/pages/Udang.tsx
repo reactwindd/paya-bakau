@@ -1,7 +1,7 @@
 export default function Udang() {
     return (
         <>
-            <div class="wrapper">
+            <div class="wrapper pb-[25vh]">
                 <h1 class="text-4xl text-left title-text py-4">🦐 Udang</h1>
                 <p class="text-2xl text-left">
                     Udang juga kaya dengan pelbagai nutrisi untuk kesihatan

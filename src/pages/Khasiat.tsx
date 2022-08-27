@@ -3,7 +3,7 @@ import Khasiat from "../assets/Khasiat.png";
 export default function App() {
     return (
         <>
-            <div class="wrapper">
+            <div class="wrapper pb-[25vh]">
                 <h1 class="text-4xl text-left title-text py-4">🌻 Khasiat</h1>
                 <p class="text-2xl text-left">
                     Pelbagai haiwan di Paya Bakau boleh dimakan oleh kita.

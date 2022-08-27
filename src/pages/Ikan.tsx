@@ -1,7 +1,7 @@
 export default function Ikan() {
     return (
         <>
-            <div class="wrapper">
+            <div class="wrapper pb-[25vh]">
                 <h1 class="text-4xl text-left title-text py-4">🐟 Ikan </h1>
                 <p class="text-2xl text-left">
                     Ikan mempunyai banyak manfaat kepada kesihatan tubuh kerana

@@ -3,7 +3,7 @@ import Crab from "../assets/crab.png";
 export default function Ketam() {
     return (
         <>
-            <div class="wrapper">
+            <div class="wrapper pb-[25vh]">
                 <h1 class="text-4xl text-left title-text py-4">🦀 Ketam</h1>
                 <p class="text-2xl text-left">
                     Terdapat pelbagai khasiat dan vitamin yang terdapat dalam
