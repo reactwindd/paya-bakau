@@ -1,4 +1,4 @@
-import Prawn from "../assets/Prawn.png";
+import Prawn from "../assets/prawn.png";
 
 export default function Udang() {
     return (
