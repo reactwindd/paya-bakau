@@ -10,10 +10,12 @@ export default function App() {
                     Haiwan-haiwan ini terdapat khasiat & nutrisi yang sesuai
                     untuk dimakan oleh kita.
                 </p>
-                <img
-                    src={Khasiat}
-                    class="object-cover my-4 rounded-xl aspect-video border-4 border-neutral drop-shadow-lg"
-                />
+                <div class="flex justify-center">
+                    <img
+                        src={Khasiat}
+                        class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
+                    />
+                </div>
             </div>
         </>
     );

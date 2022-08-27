@@ -12,13 +12,14 @@ import Navigation from "./Components/Navigation";
 export default function App() {
     return (
         <>
-            <Navigation />
             <Routes>
                 <Route path="/" component={Khasiat} />
                 <Route path="/ketam" component={Ketam} />
                 <Route path="/ikan" component={Ikan} />
                 <Route path="/udang" component={Udang} />
             </Routes>
+
+            <Navigation />
         </>
     );
 }

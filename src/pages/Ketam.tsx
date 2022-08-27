@@ -15,10 +15,14 @@ export default function Ketam() {
                     penyebaran oksigen dalam tubuh. Untuk memelihara kesihatan
                     dan kekuatan tulang, tubuh memerlukan protein yang berasal
                     dari makanan.
+                </p>
+                <div class="flex justify-center">
                     <img
                         src={Crab}
-                        class="object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
+                        class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
                     />
+                </div>
+                <p class="text-2xl text-left">
                     Daging ketam merupakan salah satu bahan makanan yang tinggi
                     akan protein. Tidak hanya dengan itu, daging ketam juga
                     dikenal mengandungi zat fosfor yang berperanan penting dalam
