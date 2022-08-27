@@ -1,3 +1,5 @@
+import Prawn from "../assets/Prawn.png";
+
 export default function Udang() {
     return (
         <>
@@ -17,6 +19,12 @@ export default function Udang() {
                     dalam tubuh. Dengan meningkatkan kadar hormon leptin dalam
                     tubuh.
                 </p>
+                <div class="flex justify-center">
+                    <img
+                        src={Prawn}
+                        class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
+                    />
+                </div>
             </div>
         </>
     );

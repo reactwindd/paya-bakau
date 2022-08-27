@@ -4,18 +4,19 @@ export default function Navigation() {
     return (
         <>
             {/* Navigation */}
-            <div class="hidden lg:block fixed bottom-2 left-2">
+            <div class="hidden lg:block fixed bottom-8 left-8">
                 <div class="bg-[#291334] text-[#FAF7F5] p-4 rounded-xl">
-                    <label for="theTeam" class="cursor-pointer modal-button">
-                        <i
-                            class="fa-xl fa-solid fa-people-group"
-                            title="The Team"
-                        ></i>
+                    <label
+                        for="theTeam"
+                        class="cursor-pointer modal-button tooltip tooltip-primary text-2xl"
+                        data-tip="Kumpulan Ini"
+                    >
+                        👓
                     </label>
 
                     <span class="border-[1px] bg-[#FAF7F5] border-[#FAF7F5] mx-4"></span>
                     <Link
-                        href="/"
+                        href="/khasiat"
                         class="text-2xl tooltip tooltip-primary"
                         data-tip="Khasiat"
                     >
@@ -51,16 +52,17 @@ export default function Navigation() {
 
             {/* Mobile Navigation */}
             <div class="block fixed lg:hidden bottom-2 left-2 right-2 float-left">
-                <div class="bg-[#291334] text-[#FAF7F5] p-8 rounded-xl">
-                    <label for="theTeam" class="cursor-pointer modal-button">
-                        <i
-                            class="fa-2xl fa-solid fa-people-group"
-                            title="The Team"
-                        ></i>
+                <div class="bg-[#291334] text-[#FAF7F5] p-4 rounded-xl">
+                    <label
+                        for="theTeam"
+                        class="cursor-pointer modal-button tooltip tooltip-primary text-2xl"
+                        data-tip="Kumpulan Ini"
+                    >
+                        👓
                     </label>
                     <span class="border-[1px] bg-[#FAF7F5] border-[#FAF7F5] mx-4"></span>
                     <Link
-                        href="/"
+                        href="/khasiat"
                         class="text-2xl tooltip tooltip-primary"
                         data-tip="Khasiat"
                     >
