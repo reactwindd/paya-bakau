@@ -8,7 +8,7 @@ import Udang from "./pages/Udang";
 import Cover from "./pages/Cover";
 
 // Components
-import Navigation from "./Components/Navigation";
+import Navigation from "./components/Navigation";
 
 export default function App() {
     return (
