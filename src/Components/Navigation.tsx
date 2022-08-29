@@ -56,7 +56,7 @@ export default function Navigation() {
                     <label
                         for="theTeam"
                         class="cursor-pointer modal-button tooltip tooltip-primary text-2xl"
-                        data-tip="Kumpulan Ini"
+                        data-tip="Pengenalan"
                     >
                         👓
                     </label>
@@ -101,17 +101,31 @@ export default function Navigation() {
             <div class="modal">
                 <div class="modal-box">
                     <h3 class="text-center title-text font-bold text-2xl">
-                        The Team
+                        Pengenalan
                     </h3>
                     <p class="py-4">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Quasi obcaecati quos hic quidem recusandae facere!
-                        Quidem aperiam eligendi voluptas animi. Magnam culpa ad
-                        dolore. Quis iste consectetur rem eius. Aut!
+                        Kami dari kelas 2 Kinabalu telah menyediakan website ini
+                        yang bertajuk "Khasiat Haiwan Hutan Paya Bakau". Ahli
+                        kumpulan kita terdiri daripada 8 orang iaitu:
                     </p>
+                    <ul class="font-bold">
+                        <li
+                            class="tooltip tooltip-primary cursor-pointer"
+                            data-tip="Leader"
+                        >
+                            ➥ Sree Vaisnavi
+                        </li>
+                        <li>➥ Pavenpreet Singh</li>
+                        <li>➥ Low Zi Xuan </li>
+                        <li>➥ Yang Zheng Yong</li>
+                        <li>➥ Tan Zhi Quan </li>
+                        <li>➥ Oi Sze Ling </li>
+                        <li>➥ Wong Wei Zhen </li>
+                        <li>➥ Chew Ying Vern</li>
+                    </ul>
                     <div class="modal-action">
-                        <label for="theTeam" class="btn">
-                            close
+                        <label for="theTeam" class="btn w-full">
+                            Close
                         </label>
                     </div>
                 </div>
