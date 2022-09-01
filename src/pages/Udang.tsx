@@ -21,6 +21,7 @@ export default function Udang() {
                 </p>
                 <div class="flex justify-center">
                     <img
+                        alt="Prawn"
                         src={Prawn}
                         class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
                     />

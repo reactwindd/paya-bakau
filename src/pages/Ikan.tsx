@@ -15,6 +15,7 @@ export default function Ikan() {
                 </p>
                 <div class="flex justify-center">
                     <img
+                        alt="Fish"
                         src={Fish}
                         class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
                     />

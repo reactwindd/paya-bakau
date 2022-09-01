@@ -12,6 +12,7 @@ export default function App() {
                 </p>
                 <div class="flex justify-center">
                     <img
+                        alt="Mangrove Trees"
                         src={Khasiat}
                         class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
                     />

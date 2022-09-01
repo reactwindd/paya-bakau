@@ -18,6 +18,7 @@ export default function Ketam() {
                 </p>
                 <div class="flex justify-center">
                     <img
+                        alt="Crab"
                         src={Crab}
                         class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
                     />
