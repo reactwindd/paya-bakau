@@ -5,7 +5,7 @@ export default function Ketam() {
         <>
             <div class="wrapper pb-[25vh]">
                 <h1 class="text-4xl text-left title-text py-4">🦀 Ketam</h1>
-                <p class="text-2xl text-left">
+                <p class="text-2xl text-justify">
                     Terdapat pelbagai khasiat dan vitamin yang terdapat dalam
                     ketam yang baik untuk tubuh badan kita. Antaranya, Zat
                     kuprum merupakan salah satu jenis mineral yang sangat baik
@@ -20,10 +20,10 @@ export default function Ketam() {
                     <img
                         alt="Crab"
                         src={Crab}
-                        class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
+                        class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg w-full"
                     />
                 </div>
-                <p class="text-2xl text-left">
+                <p class="text-2xl text-justify">
                     Daging ketam merupakan salah satu bahan makanan yang tinggi
                     akan protein. Tidak hanya dengan itu, daging ketam juga
                     dikenal mengandungi zat fosfor yang berperanan penting dalam

@@ -5,7 +5,7 @@ export default function Udang() {
         <>
             <div class="wrapper pb-[25vh]">
                 <h1 class="text-4xl text-left title-text py-4">🦐 Udang</h1>
-                <p class="text-2xl text-left">
+                <p class="text-2xl text-justify">
                     Udang juga kaya dengan pelbagai nutrisi untuk kesihatan
                     badan. Antaranya ialah, udang adalah kandungan protein yang
                     tinggi, namun tergolong rendah lemak. Dalam daging udang,
@@ -23,7 +23,7 @@ export default function Udang() {
                     <img
                         alt="Prawn"
                         src={Prawn}
-                        class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg"
+                        class="text-center object-cover my-4 rounded-xl aspect-video border-4 border-accent drop-shadow-lg w-full"
                     />
                 </div>
             </div>
