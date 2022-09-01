@@ -9,7 +9,7 @@ export default function Navigation() {
                     <label
                         for="theTeam"
                         class="cursor-pointer modal-button tooltip tooltip-primary text-2xl"
-                        data-tip="Kumpulan Ini"
+                        data-tip="Pengenalan"
                     >
                         👓
                     </label>
