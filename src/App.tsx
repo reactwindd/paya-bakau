@@ -7,9 +7,6 @@ import Ikan from "./pages/Ikan";
 import Udang from "./pages/Udang";
 import Cover from "./pages/Cover";
 
-// Components
-import Navigation from "./components/Navigation";
-
 export default function App() {
     return (
         <>
@@ -131,13 +128,13 @@ export default function App() {
                             class="tooltip tooltip-primary cursor-pointer"
                             data-tip="Leader"
                         >
-                            ➥ Sree Vaisnavi
+                            ➥ Sree Vaishnavi
                         </li>
                         <li>➥ Pavenpreet Singh</li>
                         <li>➥ Low Zi Xuan </li>
                         <li>➥ Yang Zheng Yong</li>
                         <li>➥ Tan Zhi Quan </li>
-                        <li>➥ Oi Sze Ling </li>
+                        <li>➥ Ooi Sze Ling </li>
                         <li>➥ Wong Wei Zhen </li>
                         <li>➥ Chew Ying Vern</li>
                     </ul>
