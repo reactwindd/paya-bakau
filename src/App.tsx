@@ -1,4 +1,5 @@
 import { Routes, Route, Link } from "@solidjs/router";
+import { createSignal, Show } from "solid-js";
 
 // Pages
 import Khasiat from "./pages/Khasiat";
@@ -8,8 +9,32 @@ import Udang from "./pages/Udang";
 import Cover from "./pages/Cover";
 
 export default function App() {
+    const [open, setOpen] = createSignal(true);
+
     return (
         <>
+            <Show when={open() == true}>
+                <div class="fixed w-full p-4 jump-animation">
+                    <div
+                        class="alert alert-info shadow-lg"
+                        onclick={() => setOpen(false)}
+                    >
+                        <div>
+                            <span>
+                                <div>
+                                    <p class="">
+                                        <i class="fa-solid fa-circle-info fa-xl pr-2"></i>
+                                        The KMR Project has ended at 2
+                                        <sup>nd</sup>
+                                        September 2022
+                                    </p>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </Show>
+
             <Routes>
                 <Route path="/" component={Cover} />
                 <Route path="/khasiat" component={Khasiat} />
@@ -130,7 +155,12 @@ export default function App() {
                         >
                             ➥ Sree Vaishnavi
                         </li>
-                        <li>➥ Pavenpreet Singh</li>
+                        <li
+                            class="tooltip tooltip-primary cursor-pointer"
+                            data-tip="Writer"
+                        >
+                            ➥ Pavenpreet Singh
+                        </li>
                         <li>➥ Low Zi Xuan </li>
                         <li>➥ Yang Zheng Yong</li>
                         <li>➥ Tan Zhi Quan </li>
@@ -147,4 +177,7 @@ export default function App() {
             </div>
         </>
     );
+}
+function useRef(arg0: null) {
+    throw new Error("Function not implemented.");
 }

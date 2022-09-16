@@ -11,7 +11,17 @@
     color: #003A3D;
     text-shadow: 2.5px 2.5px 0px #65C3C8;
 }
-  
+
+@keyframes jump {
+    from {transform: translate(0, -100px);}
+    to {transform: translate(0, 0);}
+}
+
+.jump-animation {
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
 
 @layer base {
     body {
@@ -22,3 +32,4 @@
         @apply mx-[2.5rem] md:mx-[5rem] lg:mx-[10rem] xl:mx-[15rem] 2xl:mx-[30rem]
     }
 }
+
